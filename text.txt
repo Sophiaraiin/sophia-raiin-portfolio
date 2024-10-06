@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sophia Raiin - Portfolio</title>
+    <style>
+        body {
+            background-color: #ADD8E6; /* Light blue background */
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+        header h1 {
+            font-size: 3em;
+            color: #003366;
+        }
+        header h2 {
+            color: #006699;
+            font-style: italic;
+        }
+        section {
+            margin: 50px 0;
+        }
+        .about, .portfolio, .contact {
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        .portfolio img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #003366;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sophia Raiin</h1>
+        <h2>Artist / Performer / Creative Professional</h2>
+    </header>
+
+    <div class="container">
+        <section class="about">
+            <h2>About Me</h2>
+            <p>Sophia Raiin is a talented performer and creative professional known for her dynamic range and dedication to her craft. With a background in [e.g., theater, music, or visual arts], Sophia has captivated audiences through her unique performances and artistic endeavors.</p>
+        </section>
+
+        <section class="portfolio">
+            <h2>Portfolio</h2>
+            <p>Here’s a collection of some of Sophia's recent works, from stage performances to visual artistry.</p>
+            <!-- Add images or videos of her work -->
+            <img src="performance1.jpg" alt="Sophia Raiin Performance">
+            <img src="artwork1.jpg" alt="Sophia Raiin Art">
+        </section>
+
+        <section class="contact">
+            <h2>Management & Contact</h2>
+            <p>For bookings and inquiries, please contact Sophia Raiin’s management team:</p>
+            <p><strong>Management Company:</strong> Stellar Arts Management</p>
+            <p><strong>Manager:</strong> Daniel Roberts</p>
+            <p><strong>Email:</strong> daniel.roberts@stellararts.com</p>
+            <p><strong>Phone:</strong> +123 456 7890</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Sophia Raiin. All Rights Reserved.</p>
+        <p>Follow me on <a href="#" style="color: white;">Instagram</a> | <a href="#" style="color: white;">Twitter</a></p>
+    </footer>
+
+</body>
+</html>
